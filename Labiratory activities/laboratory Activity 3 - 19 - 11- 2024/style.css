@@ -1,0 +1,101 @@
+body {
+    background-image: url("bg.webp");
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+    
+}
+
+.wrapper {
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+    padding: 30px;
+    background: rgba rgba(3, 218, 197, 0.8);
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(3, 218, 197, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+}
+
+h2 {
+    font-size: 2.2rem;
+    color: #000000;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+textarea {
+    width: 100%;
+    max-width: 700px;
+    height: 200px;
+    background: #1E1E1E;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 16px;
+    color: #E5E5E5;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    resize: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+textarea:focus {
+    outline: 2px solid #ffffff;
+    transform: scale(1.02);
+    box-shadow: 0 6px 15px rgba(23, 18, 29, 0.7);
+}
+
+#countContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#wordCount, #sentenceCount {
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    background: #373737;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #03DAC5;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+#wordCount:hover, #sentenceCount:hover {
+    background-color: #ffffff;
+    color: #121212;
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(3, 218, 197, 0.8);
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #000000;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+footer p {
+    margin: 0;
+}
